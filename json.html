@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Json</title>
+</head>
+<body>
+
+    <script>
+
+    let aharon = {
+        "name": "Aharon Moses",
+        "id": "123456789",
+        "birthday": "28/05/1995",
+        "address": {
+            "country": "Israel",
+            "city": "Herzliya",
+            "street": "Maapiley morroco"
+        },
+        "siblings": ["Neomi", "Shirel", "Daniel"],
+        "schools": ["Hertzel", "Reut", "Hayovel"],
+        "hobbies": ["playing sport", "gaming", "hang out with friends"],
+        "favorite_movie": "The Avengers",
+        "vegeterian": false
+    };
+
+    document.write(JSON.stringify(aharon));
+    
+    </script>
+    
+</body>
+</html>
